@@ -71,6 +71,7 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.purple),
                     ),
+                     
                   ),
 
                   const SizedBox(height: 20),
@@ -85,6 +86,14 @@ class MainApp extends StatelessWidget {
                         color: const Color.fromARGB(255, 52, 51, 55),
                       ),
                     ),
+                     child: Text(
+                  'Dirección',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
 
                   const SizedBox(height: 20),
@@ -101,6 +110,7 @@ class MainApp extends StatelessWidget {
                       alignment: Alignment.centerRight,
                       child: Icon(Icons.arrow_drop_down),
                     ),
+                    
                   ),
                   //4
                   const SizedBox(height: 20),
@@ -111,6 +121,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Estado/Región',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
                   //5
                   const SizedBox(height: 20),
@@ -121,6 +139,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Localidad',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
                   //6
                   const SizedBox(height: 20),
@@ -131,6 +157,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Código Postal',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
 
                   const SizedBox(height: 20),
@@ -142,13 +176,7 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 238, 238, 238),
                       //border: Border.all(color: Colors.black),
                     ),
-                    // Text(
-                    //   'Mis datos de facturación son diferentes',
-                    //   style: TextStyle(
-                    //     color: const Color.fromARGB(255, 0, 0, 0),
-                    //     fontSize: 16,
-                    //   ),
-                    // ),
+                    
 
                     child: Align(
                       alignment: Alignment.centerRight,
@@ -175,6 +203,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 238, 238, 238),
                      // border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Datos de Contacto',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 12,
+                     fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
                   const SizedBox(height: 10),
                   Container(
@@ -184,6 +220,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Correo electrónico',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
 
                   const SizedBox(height: 20),
@@ -194,6 +238,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Teléfono móvil',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
 
                   const SizedBox(height: 20),
@@ -205,6 +257,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Teléfono fijo',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
 
                   const SizedBox(height: 20),
@@ -215,6 +275,14 @@ class MainApp extends StatelessWidget {
                       color: const Color.fromARGB(255, 255, 255, 255),
                       border: Border.all(color: Colors.black),
                     ),
+                    child: Text(
+                  'Otros',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    // fontWeight: FontWeight.bold,
+                  ),
+                ),
                   ),
 
                   const SizedBox(height: 20),
